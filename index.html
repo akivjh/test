@@ -7,11 +7,24 @@
   <style>
     .App {
       text-align: center;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh; /* Full height of the view */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Align content to the top */
+      /* Rest of the styles for .App... */
     }
     .App-header {
       background-color: #282c34;
-      padding: 20px;
+      padding: 0rem 2rem; /* Maintain current padding */
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
       color: white;
+      font-size: 1.2rem;
+      margin-bottom: 0rem; /* Add some space below the header */
     }
     .content {
       text-align: center;
