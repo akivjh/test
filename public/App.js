@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css'; // Ensure your CSS styles are defined in this file
+import ReactDOM from 'react-dom';
+import './App.css';
 
 function App() {
   return (
@@ -15,5 +16,7 @@ function App() {
     </div>
   );
 }
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 export default App;
