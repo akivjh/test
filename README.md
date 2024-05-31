@@ -1,1 +1,3 @@
-Hello this is NebulaX
+Hello this is NebulaX.
+
+Contact us at akiv@nebulax.io.
